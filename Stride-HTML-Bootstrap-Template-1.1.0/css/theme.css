@@ -399,11 +399,15 @@ progress {
   display: none !important; }
 
 .lead {
+  
   font-size: calc(1.258rem + 0.096vw);
   font-weight: 300; }
   @media (min-width: 1200px) {
     .lead {
-      font-size: 1.33rem; } }
+  
+      font-size: 1.33rem;
+      padding: 15px;
+     } }
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
